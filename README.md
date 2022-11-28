@@ -1,4 +1,27 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&text=Welcome!%20&fontSize=60&fontAlignY=40&desc=I'm%20joonho)
+##### 팀원 : 마준호 <br/>프로젝트 수행기간 : 1주일<br/><br/><br/>
+
 # Apple_classification
+  * Task 목적 : EfficineNet 모델을 사용하여, 사과종류 분류하기
+  * 개인목적 : optuna, wandb, Image augmentation 의 활용
+  * 결과 : Image augmentation 을 활용한 결과 f1score가 0.94 -> 0.97 로 향상
+<br/>
+  
+  
+
+## EfficienNet B4 란?
+#### Channel(Width), Layer(Depth), Input size(Resolution) 세가지 방법을 종합하며 모델을 확장시키는 방법
+![image](https://user-images.githubusercontent.com/103080228/204213819-e471b4af-d690-4a32-82e8-72c79ea6ea91.png)
+
+### Compound Model Scaling
+* Depth : Network가 깊어지게되면 좀 더 풍부하고 복잡한 특징을 추출할 수 있음. 하지만 Depth가 깊어질수록 vanishing gradient 현상이 생기게 되어 성능이 저하됨<br/>이를 위해 skip connection, batch normalization 등의 방법들이 있지만 너무 깊은 Layer를 가진 모델의 성능은 더 좋아지지 않음.
+
+* Width : 넓은 Width(Channel)은 더 세밀한 특징을 추출할 수 있음. 
+
+* Resolution : 높은 해상도의 이미지를 input으로 사용할 때 모델은 더욱 세밀한 패턴을 학습할 수 있음.<br/> --> 성능을 높이기 위해서 Resolution을 크게 가져가고 있음.
+![image](https://user-images.githubusercontent.com/103080228/204216545-0afc2252-21c0-4a6a-8616-b28e20595856.png)
+
+[EfficienNet참조](https://visionhong.tistory.com/19)
 
 pytorch dataload parameters
 dataset
