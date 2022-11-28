@@ -76,12 +76,13 @@
 * optuna 와 wandb 를 동시에 적용한 결과, 더 쉽게 학습결과를 저장하고 비교할 수 있음.
 * 단순 결과 뿐만 아니라 system 자원활용 정도까지 알 수 있어서 다양한 측면의 비교가 가능함.
 * optuna 를 활용하는 것도 좋지만, 결국에는 Image augmentation 같은 방법을 활용하여 데이트의 불균형을 해소하고 다양한 경우의 수를 만드는 것이 더 중요함.
+<br/><br/><br/>
 
-## 결과
+## result
 ![image](https://user-images.githubusercontent.com/103080228/204226256-5ad0e119-7253-47f7-a7f6-6e39adedee91.png)
 ![image](https://user-images.githubusercontent.com/103080228/204226648-65f011e1-28db-4b9f-a1f7-06de4177a458.png)
 19등/137명
-
+<br/><br/><br/>
 
 ## Todo
 * GPU를 계속 사용할 수 없어서 다양한 작업에 한계가 있어 아쉬웠음
