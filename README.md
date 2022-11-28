@@ -81,7 +81,7 @@
 ## result
 ![image](https://user-images.githubusercontent.com/103080228/204226256-5ad0e119-7253-47f7-a7f6-6e39adedee91.png)
 ![image](https://user-images.githubusercontent.com/103080228/204226648-65f011e1-28db-4b9f-a1f7-06de4177a458.png)
-19등/137명
+* 19등/137명
 <br/><br/><br/>
 
 ## Todo
